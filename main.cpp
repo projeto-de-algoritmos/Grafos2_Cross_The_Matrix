@@ -168,7 +168,7 @@ int main(){
             value+=std::to_string(matrix[i][j]);
             Text text = Text(value, font, 19);
             text.setPosition(x+10, y+10);
-            text.setFillColor(Color(0, 0, 255));
+            text.setFillColor(Color(248, 24, 148));
             t.draw(r);
             t.display();
             t.draw(text);
@@ -180,7 +180,7 @@ int main(){
     rRed = RectangleShape(v2f);
 
     rRed.setFillColor(Color::Transparent);
-    rRed.setOutlineColor(Color::Red);
+    rRed.setOutlineColor(Color(0, 173, 238));
     rRed.setOutlineThickness(-4);
     rRed.setPosition(0, 0);
     t.draw(rRed);
@@ -209,7 +209,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
@@ -241,7 +241,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
@@ -271,7 +271,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
@@ -301,7 +301,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
@@ -331,7 +331,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
@@ -368,7 +368,7 @@ int main(){
                         value+=std::to_string(matrix[playerX][playerY]);
                         Text text = Text(value, font, 19);
                         text.setPosition(x+10, y+10);
-                        text.setFillColor(Color(0, 0, 255));
+                        text.setFillColor(Color(248, 24, 148));
                         t.draw(r);
                         t.display();
                         t.draw(text);
